@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass&family=Press+Start+2P&family=Roboto:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Overpass", sans-serif;
+}
+
+body {
+  background-color: hsl(216, 12%, 8%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 25px 30px;
+  width: 350px;
+  background-color: hsl(213, 19%, 18%);
+  border-radius: 35px;
+}
+
+.icon-div,
+.overlay {
+  background-color: hsl(215, 19%, 25%);
+  border-radius: 25px;
+  width: 40px;
+  height: 40px;
+  padding: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.overlay {
+  width: 45px;
+  height: 45px;
+  padding: 5px;
+  cursor: pointer;
+  color: hsl(216, 12%, 54%);
+  border: none;
+  font-size: 15px;
+}
+
+.icon {
+  width: 15px;
+  height: 15px;
+}
+
+h1 {
+  color: white;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+p {
+  color: hsl(216, 12%, 54%);
+  font-size: 15px;
+  line-height: 25px;
+}
+
+.numbers {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0 10px;
+}
+
+.submit {
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+  border: none;
+  border-radius: 20px;
+  width: 350px;
+  height: 40px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.overlay:hover {
+  background-color: hsl(216, 12%, 54%);
+  color: white;
+}
+
+.submit:active {
+  background-color: white;
+  color: hsl(25, 97%, 53%);
+}
+.phone {
+  width: 150px;
+  margin: 25px;
+}
+
+.selected {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 30px;
+  background-color: hsl(215, 19%, 25%);
+  color: hsl(25, 97%, 53%);
+  font-weight: 100;
+  border-radius: 20px;
+  padding: 3px;
+  margin-bottom: 20px;
+}
+
+h5 {
+  font-weight: 100;
+  font-size: 15px;
+}
+
+.container2 {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  padding: 25px 30px;
+  width: 350px;
+  background-color: hsl(213, 19%, 18%);
+  border-radius: 35px;
+  display: none;
+}
